@@ -74,6 +74,39 @@
 .elementor-4 .elementor-element.elementor-element-2356a4b .elementskit-infobox .box-body > p{
     color: #FFFFFF;
 } */
+hr {
+    margin: 0;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-menu {
+    left: auto;
+    top: auto;
+    /* text-align: center; */
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+.card-section {
+    display: flex;
+    justify-content: space-around;
+}
+.card-section .card {
+    width: 270px;
+    height: 350px;
+    justify-content: center;
+    grid-gap: 10px;
+    background: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+.card-section .card h4 {
+    font-weight: bold;
+}
 .modal-row{
     margin: 10px;
 }
@@ -99,62 +132,6 @@
     font-size: 16px!important;
     text-align:left!important;
 }
-.anchor-tag{
-    color: #FFFFFF;
-    background-color: #F66F0D;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #F66F0D;
-    border-radius: 5px 5px 5px 5px;
-}
-.anchor-tag1{
-    color: #FFFFFF;
-    background-color: #314376;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #314376;
-    border-radius: 5px 5px 5px 5px;
-}
-.heading-div{
-    z-index: 1;
-}
-.background1-styling{
-    transition: background 1s, border-radius 0.3s, opacity 1s;
-    background-color: #314376;
-    opacity: 0.9;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-.heading-tag{
-    font-family: "Lato", Sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.3em;
-    color: #ffffff;
-}
-.list1-div{
-    justify-content: space-between;
-    padding: 100px 50px 100px 50px;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    /* background-image: url(https://ekit.wirastudio.co/ngepet/wp-content/uploads/sites/26/2021/05/analysis-of-marketing-development.jpg); */
-    background-size: cover;
-    background-color: #314376;
-}
-.list2-div{
-    justify-content: space-between;
-    padding: 100px 50px 100px 50px;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    /* background-image: url(https://ekit.wirastudio.co/ngepet/wp-content/uploads/sites/26/2021/05/analysis-of-marketing-development.jpg); */
-    background-size: cover;
-    background-color: #F66F0D;
-}
-.list-div {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-} 
 .btn__primary {
     border-radius: 8px;
     width: auto;
@@ -254,7 +231,7 @@ ul > li > a {
     font-family: var(--font-family-inter) !important;
     font-style: normal !important;
     font-weight: normal !important;
-    font-size: 14px !important;
+    font-size: 20px !important;
     line-height: 24px !important;
     letter-spacing: 0.5px !important;
     color: var(--white) !important;
@@ -329,13 +306,18 @@ ul > li > a:hover {
     /* padding: 28px 0; */
 }
 .background-image {
-    background-image: url(../images/Group\ 70.png);
-    background-position: right; 
+    text-align: center;
+}
+.background-image img {
+    /* background-image: url(../images/Group\ 70.png); 
+    background-position: center; 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
+    width: 400px;
 }
 .site_header .site_header_content {
     width: 49%;
+    margin: auto 0;
     /* padding-left: 80px; */
 }
 .site_header .site_header_content h1 {
