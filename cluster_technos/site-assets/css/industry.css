@@ -5,6 +5,9 @@ body .real-estate-image {
 .industry-cards a:hover{
     text-decoration: none;
 }
+.industry-cards .col-lg-3{
+    padding: 0 0;
+}
 
 .real-estate-image .image-contain{
     position: absolute;
