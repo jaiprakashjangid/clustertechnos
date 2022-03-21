@@ -355,7 +355,7 @@ ul > li > a:hover {
     font-size: 17.6px;
     line-height: 31px;
     text-align: center;
-    color: var(--gray3);
+    color: black;
 }
 .jumbotron .segment_data {
     display: grid;
